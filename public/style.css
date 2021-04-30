@@ -1,0 +1,147 @@
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+@media (min-width: 576px) {
+  .container {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1380px;
+    max-width: 100%;
+  }
+}
+.container-fluid {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+@media (min-width: 576px) {
+  .container-fluid {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 768px) {
+  .container-fluid {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-fluid {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.margin-top {
+  margin-top: 1.5rem !important;
+}
+
+.text-center {
+  align-items: center;
+}
+
+.text-primary {
+  color: blue !important;
+}
+a.text-primary:focus,
+a.text-primary:hover {
+  color: blue !important;
+}
+
+.text-secondary {
+  color: #17bcff !important;
+}
+a.text-secondary:focus,
+a.text-secondary:hover {
+  color: #17bcff !important;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-left {
+  float: left;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.top {
+  margin-top: -80px;
+}
+
+.scroll-style {
+  height: 600px;
+	overflow-y: auto;
+}
