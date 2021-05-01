@@ -42,6 +42,7 @@ export const InfiniteScrollList = () => {
     if (bottom) {
       let pagination = paginationLimit + 10;
       setPaginationLimit(pagination);
+      setShowLoader(true);
       setTimeout(() => {
         getuserData();
       }, 500);
