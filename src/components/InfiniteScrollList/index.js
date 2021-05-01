@@ -15,7 +15,7 @@ export const InfiniteScrollList = () => {
   const getuserData = () => {
     axios
       .get(
-        `http://jsonplaceholder.typicode.com/photos?_start=0&_limit=${paginationLimit}`
+        `https://jsonplaceholder.typicode.com/photos?_start=0&_limit=${paginationLimit}`
       )
       .then((response) => {
         setShowLoader(false);
