@@ -7,7 +7,8 @@ const { Header } = Layout;
 export const HeaderNav = () => {
   const logout = () => {
     localStorage.clear();
-    window.location.reload();
+    // window.location.reload();
+    window.location.href='/'
   };
 
   return (
